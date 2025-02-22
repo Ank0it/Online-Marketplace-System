@@ -1,0 +1,85 @@
+Tools and Questions around this PROJECT
+
+1️. Upstash Redis –
+A managed Redis service used as a cache, database, and message broker.
+Helps store frequently accessed data to reduce database load and speed up responses.
+Used for session storage, real-time updates, and rate limiting in your app.
+
+2️. Cloudinary –
+A cloud-based service for image storage, optimization, and transformation.
+Supports automatic resizing, format conversion, and lazy loading to improve performance.
+Securely stores images and delivers them via a fast CDN (Content Delivery Network).
+
+3️. Stripe – 
+A payment processing service for handling secure online transactions.
+Provides APIs for handling payments, subscriptions, and refunds.
+Ensures PCI compliance, fraud detection, and multiple payment options.
+
+4️. Axios – 
+A JavaScript library for making HTTP requests (GET, POST, PUT, DELETE).
+Supports automatic JSON parsing, request/response interception, and error handling.
+Works with both frontend (React) and backend (Node.js/Express) for API calls.
+
+5️. Toast/Toaster – A notification system for showing alerts, success messages, and errors.
+Used for enhancing UX by giving feedback after actions like login or form submission.
+Popular libraries include react-toastify and shadcn/ui toasts.
+
+6️. Navigate – A React Router function to redirect users programmatically.
+Used for navigation after login, logout, or dynamic routing events.
+Example: navigate('/dashboard') redirects users to the dashboard page.
+
+7️. Route – Defines which component to render based on the URL path.
+Example: <Route path="/products" element={<ProductsPage />} />.
+Enables single-page applications (SPA) without full page reloads.
+
+8️. useEffect – A React Hook used for running side effects in functional components.
+Triggers API calls, event listeners, or state updates after render.
+Example: useEffect(() => { fetchData(); }, []); runs only on the first render.
+
+9️. Navbar – A UI component that contains navigation links to different pages.
+Helps users easily move between Home, Products, Cart, and Profile pages.
+Can include search bars, dropdowns, and authentication buttons.
+
+. WebSocket – A protocol for real-time, two-way communication between client and server.
+Used in live chats, notifications, stock updates, and multiplayer games.
+Unlike HTTP, it keeps a persistent connection for instant data updates.
+
+1️1. Cookies – Small files stored in the user's browser for session tracking.
+Used for authentication tokens, remembering preferences, and shopping carts.
+Can be secure (httpOnly), persistent (expires), or temporary (session cookies).
+
+1️2. useUserStore – A state management solution for handling user authentication and data.
+Keeps user info persistently across components without prop drilling.
+Usually built with Zustand, Redux, or React Context API.
+
+1️3️. Loading Spinner – A UI element that shows loading status while fetching data.
+Prevents users from thinking the app is stuck when waiting for an API response.
+Example: <Spinner /> appears while products are loading on the shop page.
+
+1️4️. CORS (Cross-Origin Resource Sharing) – A security feature that controls access between different origins (domains).
+Prevents unauthorized API requests from unknown websites.
+Needs proper headers (Access-Control-Allow-Origin) to enable frontend-backend communication.
+
+1️5️. dotenv – A package that loads environment variables from a .env file.
+Hides sensitive information like API keys, database URLs, and JWT secrets.
+Example: JWT_SECRET=your_secret_key is used securely in backend code.
+
+1️6️. Middleware – A function that processes requests before they reach the final API handler.
+Used for authentication, logging, error handling, and modifying requests/responses.
+Example: app.use(authMiddleware); checks if a user is logged in before accessing certain routes.
+
+1️7️. Controllers – Part of the MVC (Model-View-Controller) architecture that handles logic.
+Separates business logic from route definitions to keep code clean.
+Example: productController.js contains functions like getProducts(), addProduct().
+
+1️8️. API (Application Programming Interface) – A way for the frontend and backend to communicate.
+Provides data in JSON format via endpoints like /api/products.
+Can be RESTful (GET, POST, PUT, DELETE) or use GraphQL for fetching data.
+
+
+started :: 13 feb. 
+ended :: 22 feb. 
+
+
+
+
