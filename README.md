@@ -1,6 +1,6 @@
-# Online Marketplace System 🛒
+# ShopNexus 🛒
 
-The **Online Marketplace System** is a fully functional e-commerce platform that allows users to **buy and sell products** seamlessly. It includes essential features like user registration, product listing, shopping cart, and order management, providing a complete end-to-end solution for digital marketplaces.
+ShopNexus is a modern e-commerce platform that allows users to **buy and sell products** seamlessly. It includes features like user registration, product listing, shopping cart, and order management, providing an end-to-end solution for digital marketplaces.
 
 ---
 
